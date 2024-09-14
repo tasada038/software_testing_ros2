@@ -47,6 +47,9 @@ cmake --build . --target coverage
 xdg-open coverage_html_report/index.html
 ```
 
+![software_testing_ros2](img/software_testing_ros2.png)
+
+
 ### Checking Test Result.
 
 To view the XML report of test results, navigate to the following directory and open the XML file:
