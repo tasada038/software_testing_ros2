@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>software_testing_ros2</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package for publishing and subscribing to float32 messages</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_gtest</buildtool_depend>
+
+  <export>
+    <ament_index_visibility>public</ament_index_visibility>
+  </export>
+</package>
